@@ -121,6 +121,8 @@ const StickyCollection = () => {
 };
 
 function RightImg() {
+  const rootImgLink = "https://exp-img.netlify.app";
+
   return (
     <div className="right-large-img-container">
       <img
@@ -129,12 +131,12 @@ function RightImg() {
           height: "auto",
           paddingTop: "50px",
         }}
-        src="https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto:eco,c_limit,w_1080/https://f.shgcdn.com/de577ffd-90b1-498b-bede-1eb1528f9d91/"
+        src={`${rootImgLink}/img/bigImage.JPG`}
         alt="img-alt"
       />
 
       <Link
-        to="#"
+        to="/product/ClassicMafiaLongSleave"
         className="absolute-links absolute-link-1"
         style={{ textTransform: "uppercase" }}
       >
@@ -142,7 +144,7 @@ function RightImg() {
       </Link>
 
       <Link
-        to="#"
+        to="/product/ClassicMafiaLongSleave"
         className="absolute-links absolute-link-2"
         style={{ textTransform: "uppercase" }}
       >

@@ -68,11 +68,12 @@ let ImgInfoContainer = styled.div`
 const PrintOneImgBox = ({ obj }) => {
   let { onLoadImg, onHoverImg, onLoadTitle, onLoadSubTitles, hoverSubTitles } =
     obj;
+  const rootImgLink = "https://exp-img.netlify.app";
 
   return (
     <ImgInfoContainer>
       <div className="relative">
-        <img src={onLoadImg} alt="img" />
+        <img src={`${rootImgLink}/${onLoadImg}`} alt="img" />
         <div className="dynamic-img-title-container">
           <p className="title">{onLoadTitle}</p>
           <ul className="sub-ul">
@@ -82,7 +83,7 @@ const PrintOneImgBox = ({ obj }) => {
       </div>
 
       <div className="absolute">
-        <img src={onHoverImg} alt="img" />
+        <img src={`${rootImgLink}/${onHoverImg}`} alt="img" />
         <div className="dynamic-img-title-container">
           <p className="title">{onLoadTitle}</p>
           <ul className="sub-ul">

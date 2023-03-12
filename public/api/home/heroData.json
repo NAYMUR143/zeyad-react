@@ -1,14 +1,14 @@
 [
   {
-    "onLoadImg": "https://exp-img.netlify.app/img/heroHover/heroimg01.jpg",
-    "onHoverImg": "https://exp-img.netlify.app/img/heroHover/hoverHeroimg01.jpg",
+    "onLoadImg": "/img/heroHover/heroimg01.jpg",
+    "onHoverImg": "/img/heroHover/hoverHeroimg01.jpg",
     "onLoadTitle": "24k classic collection",
     "onLoadSubTitles": "",
     "hoverSubTitles": [""]
   },
   {
-    "onLoadImg": "https://exp-img.netlify.app/img/heroHover/heroimg02.jpg",
-    "onHoverImg": "https://exp-img.netlify.app/img/heroHover/hoverHeroimg02.jpg",
+    "onLoadImg": "/img/heroHover/heroimg02.jpg",
+    "onHoverImg": "/img/heroHover/hoverHeroimg02.jpg",
     "onLoadTitle": "",
     "onLoadSubTitles": "",
     "hoverSubTitles": [""]

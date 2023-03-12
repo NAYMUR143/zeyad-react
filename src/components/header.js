@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "@emotion/styled";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, Fragment, useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import Divider from "@mui/material/Divider";
@@ -136,7 +136,7 @@ const Header = () => {
       <>
         <div className="header-container">
           <div className="catalog-container">
-            <Link to="/collections/all">24k catalog</Link>
+            {/*<Link to="/collections/all">24k catalog</Link>*/}
           </div>
 
           <div
