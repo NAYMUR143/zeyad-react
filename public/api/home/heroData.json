@@ -1,0 +1,16 @@
+[
+  {
+    "onLoadImg": "https://exp-img.netlify.app/img/heroHover/heroimg01.jpg",
+    "onHoverImg": "https://exp-img.netlify.app/img/heroHover/hoverHeroimg01.jpg",
+    "onLoadTitle": "24k classic collection",
+    "onLoadSubTitles": "",
+    "hoverSubTitles": [""]
+  },
+  {
+    "onLoadImg": "https://exp-img.netlify.app/img/heroHover/heroimg02.jpg",
+    "onHoverImg": "https://exp-img.netlify.app/img/heroHover/hoverHeroimg02.jpg",
+    "onLoadTitle": "",
+    "onLoadSubTitles": "",
+    "hoverSubTitles": [""]
+  }
+]
