@@ -120,7 +120,7 @@ const RelatedViewCollection = () => {
               }}
             >
               <div>
-                <h4>OVO® 2023</h4>
+                <h4>24K 2023</h4>
               </div>
             </Box>
           </Grid>
@@ -137,10 +137,10 @@ const RelatedViewCollection = () => {
               }}
             >
               <div>
-                <h4 className="view-collection-txt-related">
+                {/* <h4 className="view-collection-txt-related">
                   <span>PREV</span>
                   <span>NEXT</span>
-                </h4>
+                </h4> */}
               </div>
             </Box>
           </Grid>

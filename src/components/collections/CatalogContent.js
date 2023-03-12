@@ -3,6 +3,7 @@ import PrintOneImgBox from "./PrintOneImgBox";
 import { Grid } from "@mui/material";
 import { Box, display } from "@mui/system";
 import { useEffect, useState } from "react";
+import { AmderData } from "../../../public/api/collections/data";
 
 const CatalogContentDiv = styled.div`
   width: 100%;
@@ -57,16 +58,9 @@ const CatalogContentDiv = styled.div`
 `;
 
 const CatalogContent = () => {
-  let [imgDataArr, setImgDataArr] = useState([]);
+  let [imgDataArr, setImgDataArr] = useState(AmderData);
 
-  useEffect(() => {
-    (async () => {
-      let res = await fetch("/api/collections/data");
-      let data = await res.json();
-
-      setImgDataArr(data);
-    })();
-  }, []);
+  useEffect(() => {}, [setImgDataArr]);
 
   return (
     <CatalogContentDiv>
@@ -140,14 +134,13 @@ const CatalogContent = () => {
             padding: "10px",
           }}
         >
-          {imgDataArr &&
-            imgDataArr.map((obj, i) => (
-              <Grid item sm={4} md={2} key={i}>
-                <div className="single-img-container">
-                  <PrintOneImgBox obj={obj} />
-                </div>
-              </Grid>
-            ))}
+          {imgDataArr.map((obj, i) => (
+            <Grid item sm={4} md={2} key={i}>
+              <div className="single-img-container">
+                <PrintOneImgBox obj={obj} />
+              </div>
+            </Grid>
+          ))}
         </Grid>
       </div>
     </CatalogContentDiv>

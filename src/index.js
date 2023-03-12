@@ -10,6 +10,7 @@ import Classic24kHoddieSignatureEditrion from "./pages/product/Classic24kHoddieS
 import ClassicMafiaHoddie from "./pages/product/ClassicMafiaHoddie";
 import ClassicMafiaLongSleave from "./pages/product/ClassicMafiaLongSleave";
 import ClassicMafiaTee from "./pages/product/ClassicMafiaTee";
+import Classic24kLongSleave from "./pages/product/Classic24KLongSleave";
 import Classsic24ktTee from "./pages/product/Classsic24ktTee";
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/product/ClassicMafiaLongSleave",
     element: <ClassicMafiaLongSleave />,
+  },
+  {
+    path: "/product/Classic24KLongSleave",
+    element: <Classic24kLongSleave />,
   },
   {
     path: "/product/ClassicMafiaTee",
