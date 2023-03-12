@@ -1,5 +1,7 @@
 import styled from "@emotion/styled";
 
+const rootImgLink = "https://exp-img.netlify.app";
+
 let ImgInfoContainer = styled.div`
   width: 100%;
   position: relative;
@@ -72,7 +74,7 @@ const PrintOneImgBox = ({ obj }) => {
   return (
     <ImgInfoContainer>
       <div className="relative">
-        <img src={onLoadImg} alt="img" />
+        <img src={`${rootImgLink}/${onLoadImg}`} alt="img" />
         <div className="dynamic-img-title-container">
           <p className="title">{onLoadTitle}</p>
           <ul className="sub-ul">
@@ -82,7 +84,7 @@ const PrintOneImgBox = ({ obj }) => {
       </div>
 
       <div className="absolute">
-        <img src={onLoadImg} alt="img" />
+        <img src={`${rootImgLink}/${onLoadImg}`} alt="img" />
         <div className="dynamic-img-title-container">
           <p className="title">quick add</p>
           <ul className="sub-ul">

@@ -1,5 +1,7 @@
 import styled from "@emotion/styled";
 
+const rootImgLink = "https://exp-img.netlify.app";
+
 let ImgInfoContainer = styled.div`
   width: 100%;
   position: relative;
@@ -76,7 +78,6 @@ let ImgInfoContainer = styled.div`
 
 const PrintOneImgBox = ({ obj }) => {
   let { onLoadImg, onLoadTitle, onLoadSubTitles, hoverSubTitles } = obj;
-  const rootImgLink = "https://exp-img.netlify.app";
 
   return (
     <ImgInfoContainer>

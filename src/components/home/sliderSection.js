@@ -8,6 +8,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Navigation } from "swiper";
 
+const rootImgLink = "https://exp-img.netlify.app";
+
 const SliderSectionDiv = styled.div`
   width: 100%;
   margin: 50px 0;
@@ -107,8 +109,6 @@ const SliderSectionDiv = styled.div`
 `;
 
 const SliderSection = () => {
-  const rootImgLink = "https://exp-img.netlify.app";
-
   return (
     <SliderSectionDiv>
       <div className="container_">

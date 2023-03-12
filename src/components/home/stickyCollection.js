@@ -3,6 +3,8 @@ import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import { Link } from "react-router-dom";
 
+const rootImgLink = "https://exp-img.netlify.app";
+
 const StickyCollectionDiv = styled.div`
   width: 100%;
   margin-top: 120px;
@@ -121,8 +123,6 @@ const StickyCollection = () => {
 };
 
 function RightImg() {
-  const rootImgLink = "https://exp-img.netlify.app";
-
   return (
     <div className="right-large-img-container">
       <img

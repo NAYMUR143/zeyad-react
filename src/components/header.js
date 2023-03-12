@@ -8,6 +8,8 @@ import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import { Grid } from "@mui/material";
 
+const rootImgLink = "https://exp-img.netlify.app";
+
 const HeaderDiv = styled.div`
   position: fixed;
   top: 0;
@@ -106,7 +108,6 @@ const DrawerContainer = styled.div`
 `;
 
 const Header = () => {
-  const rootImgLink = "https://exp-img.netlify.app";
   const navigate = useNavigate();
   const [state, setState] = useState({
     top: false,

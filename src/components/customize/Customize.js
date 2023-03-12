@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import { Box, Grid } from "@mui/material";
-import { textAlign } from "@mui/system";
-import React, { useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Pagination } from "swiper";
